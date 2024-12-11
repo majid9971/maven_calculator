@@ -22,18 +22,7 @@ public class Calculator
         return a * b;
     }
    public static void main(String[] args) {
-        Calculator calculator = new Calculator();
+      System.out.println("MAIN METHOD EXECUTED!!");
 
-        // Testing addition
-        int addResult = calculator.add(10, 5);
-        System.out.println("10 + 5 = " + addResult);
-
-        // Testing subtraction
-        int subtractResult = calculator.subtract(10, 5);
-        System.out.println("10 - 5 = " + subtractResult);
-
-        // Testing multiplication
-        int multiplyResult = calculator.multiply(10, 5);
-        System.out.println("10 * 5 = " + multiplyResult);
     }
 }
