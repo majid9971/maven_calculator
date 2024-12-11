@@ -55,6 +55,10 @@ jobs:
         with:
           name: myapp-jar
 
-      # Step 2: Use the artifact
+      # Step 2: List the artifact
+       - name: List artifact contents
+        run: ls -l
+
+        #Step 3 : RUN the JAR
       - name: Run the JAR
         run: java -jar myapp-1.0-SNAPSHOT.jar
