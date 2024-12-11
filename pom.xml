@@ -24,6 +24,11 @@
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.8.1</version> <!-- Use a modern version -->
             <configuration>
+               <archive>
+                    <manifest>
+                        <mainClass>com.example.Calculator</mainClass>
+                    </manifest>
+                </archive>
                 <source>11</source> <!-- Specify the Java source version -->
                 <target>11</target> <!-- Specify the Java target version -->
             </configuration>
